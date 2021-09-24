@@ -51,7 +51,8 @@ aside
     max-width: 250px;
     height: 960px;
     background-color: lightcoral;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
 }
 
 aside img
@@ -71,6 +72,11 @@ aside figcaption
 
 main
 {
-    display: inline;
+    display: flex;
     width:75vw;
+}
+
+.container{
+    margin: 5px;
+    display: flex;/* flex-direction: column; */x;
 }
